@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # minced-meat
 
 ## Build Setup
@@ -67,3 +68,6 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+=======
+# minced-meat
+>>>>>>> 21d5fef0adca0535fb67938804e592dc537713c7
