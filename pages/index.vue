@@ -1,14 +1,15 @@
 <template>
-  <div class="h-screen bg-black">
-    <div class="text-9xl font-bold font-sans text-center text-slate-200 hover:text-cyan-200 italic py-10 uppercase">
-      somethin' somethin' something'
+  <div class="min-h-screen max-h-screen">
+    <Header />
+    <div class="w-full h-full">
+      <Menu />
     </div>
   </div>
 </template>
 
 <script lang="ts">
-import { Vue } from 'nuxt-property-decorator'
-
-export default class LandingPage extends Vue {
+import { Component, Vue } from 'nuxt-property-decorator'
+@Component({})
+export default class index extends Vue {
 }
 </script>

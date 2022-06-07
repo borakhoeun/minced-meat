@@ -9,5 +9,11 @@ module.exports = {
   theme: {
     extend: {}
   },
-  plugins: []
+  plugins: [],
+  purge: [
+    './components/**/*.{js,ts,vue}',
+    './pages/**/*.{js,ts,vue}',
+    './classable/**/*.{js,ts,vue}',
+    './layouts/**/*.{js,ts,vue}'
+  ]
 }

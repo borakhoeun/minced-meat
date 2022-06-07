@@ -1,10 +1,19 @@
 
 <template>
-  <div>
-    <h1 class="text-5xl text-red-500">
-      Hello
-    </h1>
-  </div>
+  <header class="
+  text-5xl
+  md:text-5xl
+  lg:text-7xl
+  font-bold
+  font-sans
+  text-center
+  text-slate-200
+  hover:text-cyan-200
+  italic
+  py-10
+  uppercase">
+    somethin' somethin' something
+  </header>
 </template>
 
 <script>
