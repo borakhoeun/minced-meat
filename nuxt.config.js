@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'minced-meat',
+    title: 'Minced Meat',
     htmlAttrs: {
       lang: 'en'
     },
