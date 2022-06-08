@@ -12,10 +12,7 @@
   italic
   py-10
   uppercase">
-    <span class="transition ease-in-out duration-500 delay-150 hover:-translate-x-1.5 hover:scale-200 hover:text-red-200">
-      somethin'
-    </span>
-    somethin' something
+    somethin' somethin' something
   </header>
 </template>
 

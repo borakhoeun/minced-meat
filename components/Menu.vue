@@ -13,16 +13,16 @@
     md:text-3xl
     md:px-10
     text-slate-200">
-    <NuxtLink to="project" :exact=true class="transition ease-in-out duration-500 delay-150 hover:-translate-y-1.5 hover:scale-200 hover:text-cyan-200">
+    <NuxtLink to="project" :exact=true class='hover:text-green-300'>
       Project
     </NuxtLink>
-    <NuxtLink to="photography" :exact=true class="transition ease-in-out duration-500 delay-150 hover:-translate-y-1.5 hover:scale-200 hover:text-cyan-200">
+    <NuxtLink to="photography" :exact=true class="hover:text-green-300">
       Photography
     </NuxtLink>
-    <NuxtLink to="hobby" :exact=true class="transition ease-in-out duration-500 delay-150 hover:-translate-y-1.5 hover:scale-200 hover:text-cyan-200">
+    <NuxtLink to="hobby" :exact=true class="hover:text-green-300">
       Hobby
     </NuxtLink>
-    <NuxtLink to="about" :exact=true class="transition ease-in-out duration-500 delay-150 hover:-translate-y-1.5 hover:scale-200 hover:text-cyan-200">
+    <NuxtLink to="about" :exact=true class="hover:text-green-300">
       About me
     </NuxtLink>
   </div>
