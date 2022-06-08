@@ -1,6 +1,7 @@
 
 <template>
-  <header class="
+  <header
+    class="
   text-5xl
   md:text-5xl
   lg:text-7xl
@@ -11,7 +12,8 @@
   hover:text-cyan-200
   italic
   py-10
-  uppercase">
+  uppercase"
+  >
     somethin' somethin' something
   </header>
 </template>

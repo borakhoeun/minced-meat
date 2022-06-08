@@ -1,6 +1,7 @@
 
 <template>
-  <div class="
+  <div
+    class="
     md:space-x-10
     space-x-3
     flex
@@ -12,17 +13,18 @@
     text-xl
     md:text-3xl
     md:px-10
-    text-slate-200">
-    <NuxtLink to="project" :exact=true class='hover:text-green-300'>
+    text-slate-200"
+  >
+    <NuxtLink to="project" :exact="true" class="hover:text-green-300">
       Project
     </NuxtLink>
-    <NuxtLink to="photography" :exact=true class="hover:text-green-300">
+    <NuxtLink to="photography" :exact="true" class="hover:text-green-300">
       Photography
     </NuxtLink>
-    <NuxtLink to="hobby" :exact=true class="hover:text-green-300">
+    <NuxtLink to="hobby" :exact="true" class="hover:text-green-300">
       Hobby
     </NuxtLink>
-    <NuxtLink to="about" :exact=true class="hover:text-green-300">
+    <NuxtLink to="about" :exact="true" class="hover:text-green-300">
       About me
     </NuxtLink>
   </div>
