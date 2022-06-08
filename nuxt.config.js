@@ -1,3 +1,7 @@
+import {
+  eslint
+} from './config'
+
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -32,8 +36,10 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@nuxt/postcss8'
+    '@nuxt/postcss8',
+    '@nuxtjs/eslint-module'
   ],
+  eslint,
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
